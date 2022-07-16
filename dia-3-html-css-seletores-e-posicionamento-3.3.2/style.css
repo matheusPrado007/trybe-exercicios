@@ -1,0 +1,24 @@
+
+.container  {
+    text-align: center;
+   
+    width: 700px;
+}
+.meio {
+    margin: auto;
+}
+li:hover {
+   background-color: aqua;
+}
+p, h1 {
+    text-align: center;
+}
+li:active {
+    color: white;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    text-align: center;
+}
