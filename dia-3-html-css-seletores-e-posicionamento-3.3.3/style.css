@@ -1,0 +1,31 @@
+
+div:nth-child(3n+1){
+    list-style-type: square ;
+  color: red;
+  background-color: chartreuse;
+    
+}
+
+div:nth-child(4n+1){
+    color: aqua;
+    background-color: blueviolet;
+}
+
+div:nth-child(5n+1){
+    color: blueviolet;
+    font-size: x-large;
+    background-color: darkslategray ;
+}
+
+
+div:nth-child(6n+1){
+   color: darkslategrey;
+   background-color: red;
+}
+
+div:nth-child(7n+1){
+    color: rgb(157, 255, 0);
+}
+
+h3:active { 
+    color: black;}
