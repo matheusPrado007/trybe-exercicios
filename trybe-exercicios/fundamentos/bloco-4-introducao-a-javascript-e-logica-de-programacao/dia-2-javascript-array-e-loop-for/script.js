@@ -1,7 +1,7 @@
 //let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
-/*
-for(let number of numbers){
+
+/*for(let number of numbers){
     console.log(number)
 }
 
@@ -60,8 +60,7 @@ for (let index = 1; index < numbers.length; index += 1) {
   maiorNumero = numbers[index];
   }
 }
-console.log(maiorNumero);*/
-
+console.log(maiorNumero);
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //let numbers = [6, 10, 4, 20, 70, 8, 100, 2, 36, 28];
@@ -72,9 +71,20 @@ for(index = 0; index < numbers.length; index += 1) {
 if (numbers[index] % 2 !== 0) {
     numerosImpares += 1; 
 } else if(numerosImpares == 0){
-    console.log('nenhum valor ímpar encontrado')}
+    console.log('nenhum valor ')}}*/
+
+
+
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+
+let menorNumero= numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] < menorNumero) {
+  menorNumero = numbers[index];
+  }
 }
-
-
-console.log(numerosImpares)
-
+console.log(menorNumero);
