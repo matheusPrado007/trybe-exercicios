@@ -71,7 +71,7 @@ for(index = 0; index < numbers.length; index += 1) {
 if (numbers[index] % 2 !== 0) {
     numerosImpares += 1; 
 } else if(numerosImpares == 0){
-    console.log('nenhum valor ')}}*/
+    console.log('nenhum valor ')}}
 
 
 
@@ -87,4 +87,9 @@ for (let index = 1; index < numbers.length; index += 1) {
   menorNumero = numbers[index];
   }
 }
-console.log(menorNumero);
+console.log(menorNumero);*/
+
+
+for (let index = 1; index <= 25; index += 1) {
+   console.log(index)
+    }
