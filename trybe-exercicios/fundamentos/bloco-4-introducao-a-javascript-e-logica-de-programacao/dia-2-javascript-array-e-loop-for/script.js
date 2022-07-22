@@ -87,8 +87,7 @@ for (let index = 1; index < numbers.length; index += 1) {
   menorNumero = numbers[index];
   }
 }
-console.log(menorNumero);*/
-
+console.log(menorNumero);
 let number = [];
 for (let index = 1; index <= 25; index += 1) {
     number.push(index)
@@ -97,4 +96,16 @@ for (let index = 1; index <= 25; index += 1) {
 
     for (let index = 0; index < number.length; index += 1){
         console.log(number[index] / 2)
-    }
+    }*/
+
+let n = 100;
+let result = [];
+    let sum = 0;
+    for (let index = 1; index <= n; index += 1) {
+result.push(index)
+}
+
+for (let i = 0; i <= result.length; i += 1) {
+    result * result[i]
+    console.log(sum);
+}
