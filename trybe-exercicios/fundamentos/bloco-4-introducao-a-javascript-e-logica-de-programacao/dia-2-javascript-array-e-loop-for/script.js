@@ -23,7 +23,7 @@ for(index = 0; index < numbers.length; index += 1) {
 console.log(soma / numbers.length);
 }
 
-//Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20"*/
+//Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20"
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
@@ -39,4 +39,26 @@ if (soma / numbers.length > 20) {
 console.log("valor maior que 20")
 } else if (soma / numbers.length <= 20){
     console.log("valor menor ou igual a 20")
+}*/
+
+
+
+
+
+
+
+
+// o valor da variável higherNumber poderia ser qualquer um, desde que fosse menor que o menor número do array numbers. Caso atribuíssemos o valor 101 para a variável, nosso algoritmo estaria errado, pois ele nunca acharia um número maior que 101 no array. Para resolver esse problema vamos iniciar a variavel com o primeiro valor do array. Dessa forma podemos pular a posição 0 e iniciar com index = 1
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+
+let maiorNumero= numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] > maiorNumero) {
+  maiorNumero = numbers[index];
+  }
 }
+
+console.log(maiorNumero);
