@@ -39,7 +39,7 @@ if (soma / numbers.length > 20) {
 console.log("valor maior que 20")
 } else if (soma / numbers.length <= 20){
     console.log("valor menor ou igual a 20")
-}*/
+}
 
 
 
@@ -60,5 +60,21 @@ for (let index = 1; index < numbers.length; index += 1) {
   maiorNumero = numbers[index];
   }
 }
+console.log(maiorNumero);*/
 
-console.log(maiorNumero);
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let numbers = [6, 10, 4, 20, 70, 8, 100, 2, 36, 28];
+
+let numerosImpares = 0;
+
+for(index = 0; index < numbers.length; index += 1) {
+if (numbers[index] % 2 !== 0) {
+    numerosImpares += 1; 
+} else if(numerosImpares == 0){
+    console.log('nenhum valor ímpar encontrado')}
+}
+
+
+console.log(numerosImpares)
+
