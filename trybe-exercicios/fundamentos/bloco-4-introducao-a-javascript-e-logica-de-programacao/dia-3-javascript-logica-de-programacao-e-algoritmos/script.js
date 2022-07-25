@@ -21,7 +21,7 @@ let wordInverted = '';
 for (let index = 0 ; index < word.length; index += 1){
    wordInverted += word[word.length - 1 - index];
     }
-    console.log(wordInverted)*/
+    console.log(wordInverted)
     
 
     let array = ['java', 'javascript', 'python', 'html', 'css'];
@@ -40,3 +40,45 @@ for (let index = 0 ; index < word.length; index += 1){
      }
      console.log(palavraMaior);
 console.log(palavraMenor);
+
+let numbers = [];
+let n = 50;
+let numbers2 = [];
+let primeNumber = 0;
+let prime;
+
+for (let index = 2; index <= n; index += 1){
+numbers.push(index)
+
+for (let i = 2; i < numbers; i += 1){
+numbers2.push(i)
+if (numbers % numbers2 === 0){
+    prime = false
+} else {
+    prime = true
+}
+}
+if (prime){
+    primeNumber = numbers
+}
+}
+
+
+console.log(primeNumber);
+
+
+
+let biggestPrimeNumber = 0;
+
+for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+  let isPrime = true;
+  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+    if (currentNumber % currentDivisor === 0) {
+      isPrime = false;
+    }
+  }
+  if (isPrime) {
+    biggestPrimeNumber = currentNumber;
+  }
+}
+
