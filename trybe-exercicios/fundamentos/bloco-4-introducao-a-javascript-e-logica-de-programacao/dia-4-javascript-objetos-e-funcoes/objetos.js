@@ -1,4 +1,4 @@
-//Exercicio 1-
+/*//Exercicio 1-
 let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -26,7 +26,7 @@ let info = {
     console.log(info[key] );
   }
 
-//Exercicio 5-
+//Exercicio 5 -
 
   let infor = {
     personagem: 'Tio Patinhas',
@@ -37,4 +37,20 @@ let info = {
   console.log(info.personagem,' ','e',' ',infor.personagem)
   console.log(info.origem,' ','e',' ',infor.origem)
   console.log(info.nota,' ','e',' ',infor.nota)
-  console.log('Ambos recorrentes')
+  console.log('Ambos recorrentes')*/
+
+  //Exercicio 6 -
+
+  let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: 
+      {
+        titulo: "'O Pior Dia de Todos'",
+        autor: 'Daniela Kopsch',
+        editora: 'Tordesilhas',
+      }
+    
+  };
+  console.log('O livro favorito de', leitor.nome,leitor.sobrenome, 'se chama ', leitor.livrosFavoritos.titulo);
