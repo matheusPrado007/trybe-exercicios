@@ -9,7 +9,9 @@
   }
   
   console.log(verificaPalindrome('arara')); 
-  console.log(verificaPalindrome('desenvolvimento')); */
+  console.log(verificaPalindrome('desenvolvimento')); 
+
+
 
 let indiceMaior = 0;
 let valor = [2, 3, 6, 7, 10, 1];
@@ -22,4 +24,17 @@ let valor = [2, 3, 6, 7, 10, 1];
     return indiceMaior
   }
   
-  console.log(indiceM([2, 3, 6, 7, 10, 1])) 
+  console.log(indiceM([2, 3, 6, 7, 10, 1])) */
+
+  let indiceMenor = 0;
+let valor = [2, 4, 6, 7, 10, 0, -3];
+  function indiceM(){
+    for(let indice in valor){
+        if (valor[indiceMenor] > valor[indice]){
+           indiceMenor = indice;
+        }
+    }
+    return indiceMenor
+  }
+  
+  console.log(indiceM([2, 4, 6, 7, 10, 0, -3]))
