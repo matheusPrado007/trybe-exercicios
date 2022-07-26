@@ -50,7 +50,15 @@ let info = {
         titulo: "'O Pior Dia de Todos'",
         autor: 'Daniela Kopsch',
         editora: 'Tordesilhas',
+    novoLivro: {
+            titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+        autor: 'JK Rowling',
+        editora: 'Rocco',
+        }
       }
     
   };
   console.log('O livro favorito de', leitor.nome,leitor.sobrenome, 'se chama ', leitor.livrosFavoritos.titulo);
+
+
+console.log(leitor.nome, 'tem 2 livros favoritos');
