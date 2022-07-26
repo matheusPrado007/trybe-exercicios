@@ -1,0 +1,40 @@
+html {
+    text-align: center;
+    
+}
+.none {
+    list-style: none;
+}
+header {font-family: fantasy;
+    font-size: 30px;
+color: rgb(0, 255, 255);
+background-color: rgba(0, 47, 255, 0.986);
+padding: 5px;
+border-radius: 10%;
+}
+nav ul {
+    overflow: hidden; 
+    background-color: rgba(173, 252, 95, 0.527);
+    margin: 0%;
+}
+ h2, li:hover {
+    color: rgb(0, 82, 82);
+}
+h3 {
+    color: rgb(90, 179, 2);
+}
+h2 { font-family: fantasy;
+    font-size: 27px;
+} 
+body {
+    background-color: rgba(0, 255, 255, 0.342);
+    border: 100px;
+}
+img {
+    border-radius: 10%;
+}
+footer {
+    background-color: rgba(0, 247, 255, 0.986);
+    color: rgb(0, 187, 187;
+   padding: 5px;
+}
