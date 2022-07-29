@@ -11,3 +11,8 @@ mainTg.classList.add('main-content');
 let section = document.createElement('section');
 mainTg.appendChild(section);
 section.classList.add('center-content');
+
+let palavra = document.createElement('p');
+let txt2 = document.createTextNode('Trabalho difícil');
+palavra.appendChild(txt2)
+section.appendChild(palavra);
