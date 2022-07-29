@@ -45,12 +45,15 @@ for (let index = 0; index < text3.length; index++) {
 
 let h3A = document.createElement('h3');
 mainTg.appendChild(h3A);
+h3A.classList.add('description');
 
 let h3B = document.createElement('h3');
 mainTg.appendChild(h3B);
+h3B.classList.add('description');
 
 let h3C = document.createElement('h3');
 mainTg.appendChild(h3C);
+h3C.classList.add('description');
 
 
  
