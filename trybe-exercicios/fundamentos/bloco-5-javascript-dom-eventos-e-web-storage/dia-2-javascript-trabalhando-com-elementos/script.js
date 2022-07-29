@@ -40,6 +40,17 @@ for (let index = 0; index < text3.length; index++) {
     li.appendChild(document.createTextNode(text3[index]));
     list.appendChild(li);
 }
+
+let h3A = document.createElement('h3');
+mainTg.appendChild(h3A);
+
+let h3B = document.createElement('h3');
+mainTg.appendChild(h3B);
+
+let h3C = document.createElement('h3');
+mainTg.appendChild(h3C);
+
+
  
 
 
