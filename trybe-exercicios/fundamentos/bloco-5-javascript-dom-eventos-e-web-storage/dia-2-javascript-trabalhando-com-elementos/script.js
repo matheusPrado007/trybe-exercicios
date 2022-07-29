@@ -13,8 +13,8 @@ mainTg.appendChild(section);
 section.classList.add('center-content');
 
 let palavra = document.createElement('p');
-let txt2 = document.createTextNode('Trabalho difícil');
-palavra.appendChild(txt2)
+let txt2 = document.createTextNode("Lugares lindos");
+palavra.appendChild(txt2);
 section.appendChild(palavra);
 
 let section2 = document.createElement('section');
@@ -29,3 +29,27 @@ let img = document.createElement('img');
 section2.appendChild(img);
 img.src = 'https://picsum.photos/200 '
 img.classList.add('small-image');
+
+let list = document.createElement('ul');
+section3.appendChild(list);
+
+let text3 = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+for (let index = 0; index < text3.length; index++) {
+    let li = document.createElement('li');
+    li.appendChild(document.createTextNode(text3[index]));
+    list.appendChild(li);
+}
+ 
+
+
+
+ 
+
+  
+       
+      
+    
+
+    
+   
