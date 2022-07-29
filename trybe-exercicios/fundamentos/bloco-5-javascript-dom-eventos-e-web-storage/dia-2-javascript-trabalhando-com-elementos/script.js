@@ -20,3 +20,7 @@ section.appendChild(palavra);
 let section2 = document.createElement('section');
 mainTg.appendChild(section2);
 section2.classList.add('left-content');
+
+let section3 = document.createElement('section');
+mainTg.appendChild(section3);
+section3.classList.add('right-content');
