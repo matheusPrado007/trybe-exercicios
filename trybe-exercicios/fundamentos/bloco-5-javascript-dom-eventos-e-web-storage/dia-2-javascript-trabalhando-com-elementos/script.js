@@ -24,3 +24,8 @@ section2.classList.add('left-content');
 let section3 = document.createElement('section');
 mainTg.appendChild(section3);
 section3.classList.add('right-content');
+
+let img = document.createElement('img');
+section2.appendChild(img);
+img.src = 'https://picsum.photos/200 '
+img.classList.add('small-image');
