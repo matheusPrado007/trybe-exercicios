@@ -8,4 +8,6 @@ let mainTg = document.createElement('main');
 elementoPai.appendChild(mainTg);
 mainTg.classList.add('main-content');
 
-
+let section = document.createElement('section');
+mainTg.appendChild(section);
+section.classList.add('center-content');
