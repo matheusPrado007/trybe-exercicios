@@ -16,3 +16,7 @@ let palavra = document.createElement('p');
 let txt2 = document.createTextNode('Trabalho difícil');
 palavra.appendChild(txt2)
 section.appendChild(palavra);
+
+let section2 = document.createElement('section');
+mainTg.appendChild(section2);
+section2.classList.add('left-content');
