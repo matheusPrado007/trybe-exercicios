@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<h1>Formulario</h1>
+
+    
+
+<body>
+    <form action="" method="GET">
+        <Main>
+            <div> 
+            <label for="nome-completo">Nome Completo:
+             <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome " minlength="10" maxlength="40" >
+            </label>
+    <br><br>
+ <label for="email">E-mail:     
+    <input type="email" name="email" id="email" placeholder="Coloque seu e-mail" minlength="10" maxlength="50" >
+</label>
+
+</div> 
+<div>
+    <p>Destino Preferido:</p>
+<label for="destino1">
+   
+    <input type="radio" id="destino1" nome="destino-preferido" value="Cidade" checked>Cidade
+</label>
+
+<label for="destino2">
+    <input type="radio" id="destino2" nome="destino-preferido" value="Campo" >Campo
+</label>
+
+<label for="destino3">
+    <input type="radio" id="destino3" nome="destino-preferido" value="Praia" >Praia 
+
+<label for="destino4">
+    <input type="radio" id="destino4" nome="destino-preferido" value="Montanhas" >Montanhas
+</label>
+    
+</div>
+<div>
+<p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+
+<textarea name="pq-viajem" id="text-1" cols="30" rows="10" maxlength="500"></textarea>
+<br>
+<p>Qual a melhor data para realizar sua viagem?</p>
+<input type="date">
+
+<br> 
+
+<p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+
+<label for="sim">
+   
+    <input type="radio" id="sim" nome="sim-não" value="Cidade" checked>Sim
+</label>
+
+<label for="não">
+    <input type="radio" id="não" nome="sim-não" value="Campo" >Não
+</label>
+<br>
+<p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+
+<label for="sim">
+   
+    <input type="checkbox" id="sim" nome="sim-não" value="sim"  required>Sim
+</label>
+
+<label for="não">
+    <input type="checkbox" id="não" nome="sim-não" value="Não" >Não
+</label>
+</div>
+<br>
+        <div>
+            <button type="submit" id="buttonSubmit">Enviar Formulário
+            </button>
+            
+            <button type="reset">Limpar Formulário</button>
+        </div>
+ 
+    
+</Main>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
